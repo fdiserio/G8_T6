@@ -1,12 +1,10 @@
-# CodeRush - Compile and Execute code in 40+ languages
+# CodeRush - Compile and Execute code 
 
 ⚡️ A code editor that compiles and runs your code on the web.
-Blog: <a href="https://www.freecodecamp.org/news/how-to-build-react-based-code-editor/" target="__blank">FreeCodeCamp - Build A Code IDE with React</a>
 
-<img src="https://github.com/manuarora700/react-code-editor/blob/main/demo.png" />
 
 ## Features: 
-- Compile and execute code in 40+ programming languages.
+- Compile and execute code.
 - Switch themes from a list of available themes.
 
 ## Installations and setup
@@ -28,6 +26,3 @@ TODO:
 4. Save code functionality (Firestore - use Slug based approach)
 5. Share code functionality
 
-## Support
-
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
