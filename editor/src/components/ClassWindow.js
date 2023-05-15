@@ -14,12 +14,13 @@ const ClassWindow = ({ onChange, language, code, theme }) => {
         <Editor
             height="50vh"
             width={`100%`}
-            language={language || "javascript"}
+            language={"html"}
             value={value}
+            //path={value}
             theme={theme}
             defaultValue="// some comment"
             onChange={null}
-            options={{readOnly: true}}
+            options={{readOnly: true}} // rendiamo la classe da testare non modificabile
         />
       </div>
   );

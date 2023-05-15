@@ -553,6 +553,7 @@ const Landing = () => {
       progress: undefined,
     });
   };
+ 
 
   return (
     <>
@@ -620,13 +621,16 @@ const Landing = () => {
             Class Under Test
           </h1>
           <div className="flex flex-col w-full h-full justify-start items-end">
+          
             <ClassWindow
-              code={ExampleClass}
+              code={"https://www.eclemma.org/jacoco/trunk/coverage/org.jacoco.examples/org.jacoco.examples/ClassInfo.java.html"}
               onChange={null}
               language={language?.value}
               theme={theme.value}
             />
           </div>
+          <iframe src="https://www.eclemma.org/jacoco/trunk/coverage/org.jacoco.examples/org.jacoco.examples/ClassInfo.java.html" height="full" width="full">          	
+          </iframe>
           <OutputWindow outputDetails={outputDetails} />
           <div className="flex flex-col items-end">
           </div>
